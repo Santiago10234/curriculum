@@ -1,0 +1,122 @@
+@keyframes rellenar {
+    to{
+        stroke-dasharray: 75 100;
+    }
+}
+
+@keyframes rellenar2 {
+    to{
+        stroke-dasharray: 65 100;
+    }
+}
+
+@keyframes rellenar3 {
+    to{
+        stroke-dasharray: 45 100;
+    }
+}
+
+@keyframes rellenar4 {
+    to{
+        stroke-dasharray: 20 100;
+    }
+}
+
+@keyframes rellenar5 {
+    to{
+        stroke-dasharray: 88 100;
+    }
+}
+
+.graficos{
+    display: flex;
+}
+
+.circulo1{
+    fill: none;
+    stroke-width: 20;
+    transform: rotate(-90deg);
+    transform-origin: 50%;
+    stroke-dasharray: 100 100;
+    stroke: rgb(216, 212, 212);
+}
+.circulo2{
+    fill: none;
+    stroke-width: 20;
+    transform: rotate(-90deg);
+    transform-origin: 50%;
+    stroke-dasharray: 100 100;
+    stroke: rgb(216, 212, 212);
+}
+
+.circulo3{
+    fill: none;
+    stroke-width: 20;
+    transform: rotate(-90deg);
+    transform-origin: 50%;
+    stroke-dasharray: 100 100;
+    stroke: rgb(216, 212, 212);
+}
+
+.circulo4{
+    fill: none;
+    stroke-width: 20;
+    transform: rotate(-90deg);
+    transform-origin: 50%;
+    stroke-dasharray: 100 100;
+    stroke: rgb(216, 212, 212);
+}
+
+.circulo5{
+    fill: none;
+    stroke-width: 20;
+    transform: rotate(-90deg);
+    transform-origin: 50%;
+    stroke-dasharray: 100 100;
+    stroke: rgb(216, 212, 212);
+}
+
+.fondo1{
+    stroke-dasharray: 0 100;
+    stroke: gray;
+    animation: rellenar .99s linear forwards;
+}
+
+.fondo2{
+    stroke-dasharray: 0 100;
+    stroke: gray;
+    animation: rellenar2 .99s linear forwards;
+}
+
+.fondo3{
+    stroke-dasharray: 0 100;
+    stroke: gray;
+    animation: rellenar3 .99s linear forwards;
+}
+
+.fondo4{
+    stroke-dasharray: 0 100;
+    stroke: gray;
+    animation: rellenar4 .99s linear forwards;
+}
+
+.fondo5{
+    stroke-dasharray: 0 100;
+    stroke: gray;
+    animation: rellenar5 .99s linear forwards;
+}
+
+.porcentajes{
+    position: relative;
+}
+
+.porcentajes span{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    bottom: 0%;
+    right: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
