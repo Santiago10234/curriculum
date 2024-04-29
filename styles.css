@@ -1,30 +1,30 @@
 @keyframes rellenar {
     to{
-        stroke-dasharray: 75 100;
+        stroke-dasharray: 90 100;
     }
 }
 
 @keyframes rellenar2 {
     to{
-        stroke-dasharray: 65 100;
+        stroke-dasharray: 75 100;
     }
 }
 
 @keyframes rellenar3 {
     to{
-        stroke-dasharray: 45 100;
+        stroke-dasharray: 60 100;
     }
 }
 
 @keyframes rellenar4 {
     to{
-        stroke-dasharray: 20 100;
+        stroke-dasharray: 60 100;
     }
 }
 
 @keyframes rellenar5 {
     to{
-        stroke-dasharray: 88 100;
+        stroke-dasharray: 70 100;
     }
 }
 
@@ -121,7 +121,7 @@ body{
     position: absolute;
     top: 0%;
     left: 0%;
-    bottom: 0%;
+    bottom: 30%;
     right: 0%;
     display: flex;
     align-items: center;
@@ -141,8 +141,6 @@ body{
 
 li{
     margin-right: 50px;
-    
-    
 }
 
 .cuadro{
@@ -178,6 +176,8 @@ hr{
     align-items: center;
     justify-content: center;
     font-size: 18px;
+    margin-top: -50px;
+    margin-bottom: -15px;
 }
 
 .nombre{
@@ -201,15 +201,13 @@ hr{
     margin-right: 6px;
 }
 
-
-
 .educacionYhobby{
     display: flex;
     justify-content: space-between;
 }
 
 .hobby{
-    margin-right: 90px;
+    margin-right: 140px;
 }
 
 .hobby1{
@@ -218,10 +216,18 @@ hr{
 
 .iconos2{
     margin-right: 40px;
+    height: 40px;
 }
 
 .lineaHorizontal{
     border: none;
     border-left: 2px solid black;
-    height: 280px;
+    height: 230px;
+    margin-bottom: 40px;
+}
+
+.parrafo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
