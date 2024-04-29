@@ -148,7 +148,7 @@ li{
 
 .cuadro{
     border: 2px solid black;
-    width: 950px;
+    width: 800px;
 }
 
 svg{
@@ -174,4 +174,16 @@ hr{
 
 .nombre{
     font-size: 30px;
+}
+
+.listas{
+    display: flex;
+}
+
+.experiencia{
+    margin-left: 100px;
+}
+
+.img{
+    margin-right: 100px;
 }
