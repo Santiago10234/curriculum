@@ -32,7 +32,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(233, 232, 232);
 }
 
 .graficos{
@@ -164,11 +163,20 @@ hr{
 }
 
 .skills{
-    margin-left: 100px;
+    margin-left: 50px;
     font-size: 20px;
 }
 
+.linea{
+    width: 140px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 .puesto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-size: 18px;
 }
 
@@ -181,9 +189,39 @@ hr{
 }
 
 .experiencia{
-    margin-left: 100px;
+    margin-left: 50px;
 }
 
 .img{
-    margin-right: 100px;
+    margin-top: 40px;
+    margin-right: 50px;
+}
+
+.iconos{
+    margin-right: 6px;
+}
+
+
+
+.educacionYhobby{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hobby{
+    margin-right: 90px;
+}
+
+.hobby1{
+    display: flex;
+}
+
+.iconos2{
+    margin-right: 40px;
+}
+
+.lineaHorizontal{
+    border: none;
+    border-left: 2px solid black;
+    height: 280px;
 }
