@@ -139,6 +139,10 @@ body{
     list-style-type: none;
 }
 
+.lista:hover{
+    color: rgb(45, 45, 212);
+}
+
 li{
     margin-right: 50px;
 }
@@ -201,6 +205,12 @@ hr{
     margin-right: 6px;
 }
 
+.iconos:hover{
+    height: 17px;
+    width: 17;
+    margin-right: 6px;
+}
+
 .educacionYhobby{
     display: flex;
     justify-content: space-between;
@@ -230,4 +240,12 @@ hr{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.yo{
+    width: 250px;
+}
+
+.linea5{
+    rotate: 90deg;
 }
