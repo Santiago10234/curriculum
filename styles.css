@@ -249,3 +249,12 @@ hr{
 .linea5{
     rotate: 90deg;
 }
+
+button{
+    background-color: white;
+    border: none;
+}
+
+button:hover{
+    cursor: pointer;
+}
