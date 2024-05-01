@@ -258,3 +258,16 @@ button{
 button:hover{
     cursor: pointer;
 }
+.hidden{
+    display: none;
+}
+.show{
+    
+}
+
+.contenedorp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -30px;
+}
